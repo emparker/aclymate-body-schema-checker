@@ -10,7 +10,7 @@ const body = {
     }
   }
 
-  const schema = {
+const schema = {
     name: {type: "string", required: true},
     age: {type: "number", required: true},
     founder: {type: "boolean", required: false},
